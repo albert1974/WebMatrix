@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="plugin" group="system">
+	<name>Chatwee Widget Chat</name>
+	<author>Chatwee Team</author>
+	<creationDate>January 2015</creationDate>
+	<copyright>Copyright (C) 2015 Chatwee. All rights reserved.</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>wojciech.majerski@chatwee.com</authorEmail>
+	<authorUrl>chatwee.com</authorUrl>
+	<version>2.0</version>
+	<description>This is Chatwee.</description>
+	<files>
+		<filename plugin="chatweechatwidget">chatweechatwidget.php</filename>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="chatwee_code" filter="raw" type="textarea" default="" label="Chatwee code snippet" cols="40" rows="10" description="Copy the code snippet." />
+				<field name="chatwee_sso_status" type="radio" default="1" description="sso_enable" label="Is the SSO login enable?">
+					<option value="1">on</option>
+					<option value="0">off</option>
+				</field>
+				<field name="chatwee_chatid" type="text" default="" description="chatid" label="Chatwee ChatId"/>			
+				<field name="chatwee_apikey" type="text" default="" description="apikey" label="Chatwee API Key"/>
+				<field name="chatwee_username_or_fullname" type="radio" default="1" description="sso_usernames" label="Is the SSO login use username or full name?">
+					<option value="1">username</option>
+					<option value="0">fullname</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension> 
