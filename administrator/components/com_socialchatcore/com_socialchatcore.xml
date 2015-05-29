@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension method="upgrade" type="component" version="2.5.0">
+<name>Social Chat core</name>
+<creationDate>16 02 2012</creationDate>
+<version>1.0</version>
+<author>Iacopo Guarneri</author>
+<authorEmail>iacopo.guarneri@alice.it</authorEmail>
+<authorUrl>http://www.the-html-tool.com/</authorUrl>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<files>
+		<filename>socialchatcore.php</filename>
+		<filename>com_socialchatcore.xml</filename>
+		<filename>index.html</filename>
+	</files>
+	
+	<administration>
+		<menu>Social Chat core</menu>
+	</administration>
+</extension>

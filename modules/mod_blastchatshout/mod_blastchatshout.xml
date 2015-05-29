@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="1.6" client="site" method="upgrade">
+	<name>BlastChat Shout</name>
+	<creationDate>March 2013</creationDate>
+	<author>BlastChat</author>
+	<authorEmail>support@blastchat.com</authorEmail>
+	<authorUrl>http://www.blastchat.com</authorUrl>
+	<copyright>2004-2013 BlastChat. All rights reserved.</copyright>
+	<license>GNU/GPL, see LICENSE.php</license>
+	<version>4.0</version>
+	<description>Providing shout functionality to your website using blastchat.com chat hosting service</description>
+	
+	<files folder="..">
+		<filename module="mod_blastchatshout">mod_blastchatshout.php</filename>
+    <filename>index.html</filename>
+    <filename>mod_blastchatshout.xml</filename>
+    <filename>mod_blastchatshout.php</filename>
+    <filename>COPYRIGHT.php</filename>
+    <filename>LICENSE.php</filename>
+    <folder>tmpl</folder>
+	</files>
+
+	<media destination="mod_blastchatshout" folder="../media">
+		<filename>index.html</filename>
+		<folder>images</folder>
+	</media>
+
+	<languages folder="..">
+		<language tag="en-GB">en-GB.mod_blastchatshout.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="interface"
+					type="list"
+					label="MOD_BLASTCHATSHOUT_FIELD_INTERFACE_LABEL"
+					description="MOD_BLASTCHATSHOUT_FIELD_INTERFACE_DESC"
+					default="shout"
+				>
+					<option value="chat">MOD_BLASTCHATSHOUT_FIELD_INTERFACE_CHAT</option>
+					<option value="shout">MOD_BLASTCHATSHOUT_FIELD_INTERFACE_SHOUT</option>
+				</field>
+				<field
+					name="width"
+					type="text"
+					label="MOD_BLASTCHATSHOUT_FIELD_WIDTH_LABEL"
+					description="MOD_BLASTCHATSHOUT_FIELD_WIDTH_DESC"
+					default="100%"
+				>
+				</field>
+				<field
+					name="height"
+					type="text"
+					label="MOD_BLASTCHATSHOUT_FIELD_HEIGHT_LABEL"
+					description="MOD_BLASTCHATSHOUT_FIELD_HEIGHT_DESC"
+					default="320"
+				>
+				</field>
+				<field
+					name="rids"
+					type="text"
+					label="MOD_BLASTCHATSHOUT_FIELD_RIDS_LABEL"
+					description="MOD_BLASTCHATSHOUT_FIELD_RIDS_DESC"
+					default="1"
+				>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

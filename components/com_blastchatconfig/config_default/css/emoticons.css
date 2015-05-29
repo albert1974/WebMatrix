@@ -1,0 +1,153 @@
+/* Referenced in config_default/rooms.js file as bcroom.emoticonsGroupBaseClass = "bcEmoticon"; */
+.bcEmoticon {
+	border-style: none;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-image: url("../images/emoticons20.png");
+	background-color: transparent;
+	text-align: center;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 1 */
+.bcEmoticonSmile {
+	background-position: 0px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 2 */
+.bcEmoticonWink {
+	background-position: -20px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 3 */
+.bcEmoticonLaugh {
+	background-position: -40px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 4 */
+.bcEmoticonLaughing {
+	background-position: -60px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 5 */
+.bcEmoticonCheer {
+	background-position: -80px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 6 */
+.bcEmoticonCool {
+	background-position: -100px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 7 */
+.bcEmoticonBlink {
+	background-position: -120px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 8 */
+.bcEmoticonSad {
+	background-position: -140px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 9 */
+.bcEmoticonUnsure {
+	background-position: -160px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 10 */
+.bcEmoticonSick {
+	background-position: -180px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 11 */
+.bcEmoticonTongue {
+	background-position: -200px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 12 */
+.bcEmoticonLove {
+	background-position: -220px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 13 */
+.bcEmoticonKiss {
+	background-position: -240px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 14 */
+.bcEmoticonBlush {
+	background-position: -260px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 15 */
+.bcEmoticonMad {
+	background-position: -280px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 16 */
+.bcEmoticonAngryred {
+	background-position: -300px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 17 */
+.bcEmoticonDevil {
+	background-position: -320px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 18 */
+.bcEmoticonDizzy {
+	background-position: -340px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 19 */
+.bcEmoticonErmm {
+	background-position: -360px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 20 */
+.bcEmoticonGrin {
+	background-position: -380px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 21 */
+.bcEmoticonPinch {
+	background-position: -400px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 22 */
+.bcEmoticonOmg {
+	background-position: -420px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 23 */
+.bcEmoticonShock {
+	background-position: -440px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 24 */
+.bcEmoticonSide {
+	background-position: -460px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 25 */
+.bcEmoticonSilly {
+	background-position: -480px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 26 */
+.bcEmoticonWoot {
+	background-position: -500px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 27 */
+.bcEmoticonWassat {
+	background-position: -520px;
+}
+
+/* Referenced in config_default/emoticons.js file as emoticons with id 28 */
+.bcEmoticonWhistle {
+	background-position: -540px;
+}

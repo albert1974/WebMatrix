@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0" method="upgrade">
+	<name>COM_BLASTCHATCHAT</name>
+	<creationDate>March 2013</creationDate>
+	<author>BlastChat</author>
+	<authorEmail>support@blastchat.com</authorEmail>
+	<authorUrl>http://www.blastchat.com</authorUrl>
+	<copyright>2004-2013 BlastChat. All rights reserved.</copyright>
+	<license>GNU/GPL, see LICENSE.php</license>
+	<version>4.0</version>
+	<description>Providing chat functionality to your website using blastchat.com chat hosting service</description>
+	
+	<files folder="site">
+		<filename>index.html</filename>
+		<filename>blastchatchat.php</filename>
+		<filename>controller.php</filename>
+		<filename>COPYRIGHT.php</filename>
+		<filename>LICENSE.php</filename>
+		<folder>language</folder>
+		<folder>views</folder>
+	</files>
+	
+	<media destination="com_blastchatchat" folder="media">
+		<filename>index.html</filename>
+		<folder>images</folder>
+	</media>
+	
+	<administration>
+		<menu img="media/com_blastchatchat/images/blastchat.ico">COM_BLASTCHATCHAT_MENU</menu>
+		<files folder="admin">
+			<filename>index.html</filename>
+			<filename>blastchatchat.php</filename>
+			<filename>config.xml</filename>
+			<filename>controller.php</filename>
+			<filename>COPYRIGHT.php</filename>
+			<filename>LICENSE.php</filename>
+			<folder>views</folder>
+		</files>
+		<languages folder="languages">
+			<language tag="en-GB">en-GB/en-GB.com_blastchatchat.ini</language>
+			<language tag="en-GB">en-GB/en-GB.com_blastchatchat.sys.ini</language>
+		</languages>
+	</administration>
+	
+	<config>
+		<fieldset
+			name="configuration"
+			label="COM_BLASTCHATCHAT_FIELD_CONFIGURATION_LABEL"
+			description="COM_BLASTCHATCHAT_FIELD_CONFIGURATION_DESC"
+		>
+			<field
+				name="interface"
+				type="list"
+				label="COM_BLASTCHATCHAT_FIELD_INTERFACE_LABEL"
+				description="COM_BLASTCHATCHAT_FIELD_INTERFACE_DESC"
+				default="chat"
+			>
+				<option value="chat">COM_BLASTCHATCHAT_FIELD_INTERFACE_CHAT</option>
+				<option value="shout">COM_BLASTCHATCHAT_FIELD_INTERFACE_SHOUT</option>
+			</field>
+			<field
+				name="width"
+				type="text"
+				label="COM_BLASTCHATCHAT_FIELD_WIDTH_LABEL"
+				description="COM_BLASTCHATCHAT_FIELD_WIDTH_DESC"
+				default="100%"
+			>
+			</field>
+			<field
+				name="height"
+				type="text"
+				label="COM_BLASTCHATCHAT_FIELD_HEIGHT_LABEL"
+				description="COM_BLASTCHATCHAT_FIELD_HEIGHT_DESC"
+				default="480"
+			>
+			</field>
+		</fieldset>
+	</config>
+</extension>

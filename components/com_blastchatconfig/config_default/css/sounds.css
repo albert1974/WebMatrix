@@ -1,0 +1,23 @@
+/* Referenced in config_default/rooms.js file as bcroom.soundsGroupBaseClass = "bcSound"; */
+.bcSound {
+	border-style: none;
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-image: url("../images/sounds20.png");
+	background-color: transparent;
+	text-align: center;
+}
+
+/* Referenced in config_default/sounds.js file as sound with id 1 */
+.bcSoundMessage {
+	background-position: 0px;
+}
+
+/* Referenced in config_default/sounds.js file as sound with id 2 */
+.bcSoundBeep {
+	background-position: -20px;
+}

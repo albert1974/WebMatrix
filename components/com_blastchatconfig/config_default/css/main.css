@@ -1,0 +1,119 @@
+.bcMainDetached {
+	font-family: arial,helvetica,sans-serif;
+	font-size: 12px;
+	width: 100%;
+	height: 100%;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+}
+
+.bcMainChat {
+	border: solid 1px #aaa;
+	padding: 1px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	font-size: 12px;
+}
+
+.bcMainShout {
+	border: solid 1px #aaa;
+	padding: 1px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	font-size: 12px;
+}
+
+.bcMainBar {
+	position: fixed;
+	right: 0px;
+	float: none;
+	font-size: 12px;
+	bottom: 0px;
+	border: none;
+	padding: 0px;
+	border-radius:0px;
+	-moz-border-radius:0px;
+	-webkit-border-radius:0px;
+	background: none;
+	font-size: 12px;
+}
+
+.bcMainLoading {
+	background: url(https://ajax.googleapis.com/ajax/libs/dojo/1.6.1/dijit/themes/tundra/images/loading.gif) no-repeat center center;
+}
+
+.bcMainBarLoading {
+	position: fixed;
+	right: 0px;
+	float: none;
+	/* font-size: 1em; */
+	bottom: 0px;
+	border: solid 1px #aaa;
+	padding: 1px;
+	width: 30px;
+	height: 30px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color: #FFFFFF;
+}
+
+.bcMainBarError {
+	position: fixed;
+	right: 0px;
+	float: none;
+	font-size: 12px;
+	bottom: 0px;
+	border: solid 1px #aaa;
+	padding: 0px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	background-color: #FFFFFF;
+	text-align: left;
+	font-size: 12px;
+}
+
+.bcMainBarHolder {
+	background-color: #FFFFFF;
+	padding: 1px 1px 0px 1px;
+	border: 1px solid #AAAAAA;
+	border-top-left-radius:5px;
+	-moz-border-top-left-radius:5px;
+	-webkit-border-top-left-radius:5px;
+	border-top-right-radius:5px;
+	-moz-border-top-right-radius:5px;
+	-webkit-border-top-right-radius:5px;
+}
+
+.bcMainTitle
+{
+	position: absolute;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	border-style: none;
+	text-align: center;
+	font-weight: bold;
+	z-index: -1;
+}
+
+.bcMainBar .bcMainTitle
+{
+	cursor: pointer;
+}
+
+.bcDisableCopyPaste
+{
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}

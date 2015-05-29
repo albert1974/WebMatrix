@@ -1,0 +1,196 @@
+#social_chat_start{
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	width:152px;/*cambiando altezza e larghezza cambiano anche tutti gli stili sotto*/
+	height:17px;
+	background:#fff;
+	z-index:2147483647;
+	border:1px solid #7b7b7b;
+	cursor:pointer;
+	padding:3px 5px;
+}
+#social_chat_status{
+	position:fixed;
+	right:0px;
+	bottom:0px;
+	width:17px;
+	height:17px;
+	background:#fff;
+	z-index:2147483647;
+	border:1px solid #7b7b7b;
+	cursor:pointer;
+	padding:3px 5px;
+}
+#social_chat_panel, #social_chat_status_panel{
+	position:fixed;
+	right:0px;
+	bottom:24px;
+	width:152px;
+	height:200px;
+	overflow:auto;
+	background:#fff;
+	z-index:2147483647;
+	display:none;
+	border:1px solid #7b7b7b;
+	padding:3px 5px;
+}
+#social_chat_status_panel{
+	height:85px;
+	width:110px;
+}
+#social_chat_container{
+	position:fixed;
+	height:17px;
+	width:0px;
+	bottom:8px;
+	right:163px;
+	z-index:2147483647;
+}
+.social_chat_box{
+	float:right;
+	width:152px;
+	height:17px;
+	background:#fff;
+	border:1px solid #7b7b7b;
+	padding:3px 5px;
+	cursor:pointer;
+}
+.social_chat_story{
+	float:right;
+	position:absolute;
+	margin:-211px 0 0 -6px;
+	width:152px;
+	height:200px;
+	/*overflow:auto;*/
+	background:#fff;
+	z-index:2147483647;
+	display:none;
+	border:1px solid #7b7b7b;
+	padding:3px 5px;
+}
+.social_chat_mex{
+	height:129px;
+	width:100%;
+	overflow:auto;
+}
+.social_chat_form{
+	margin-top:2px;
+	height:60px;
+	width:100%;
+}
+.social_chat_form textarea{
+	width:100%;
+	height:40px;
+}
+.social_chat_form button{
+	width:100%;
+	background:#516ea6;
+	border:none;
+	color:#fff;
+	font-weight:bold;
+	/*margin-top:-13px;*/
+	cursor:pointer;
+}
+#social_chat_navigator{
+	position:fixed;
+	left:0px;
+	bottom:17px;
+	width:50px;
+	height:20px;
+	background:#fff;
+	z-index:2147483647;
+	padding:3px 5px;
+}
+#storico_panel{
+	position:fixed;
+	bottom:0;
+	right:0;
+	width:200px;
+	height:300px;
+	background:#fff;
+	z-index:2147483647;
+	border:1px solid #7b7b7b;
+	padding:3px 5px;
+}
+#chiudi_storico{
+	display:block;
+	width:20px;
+	text-align:right;
+	float:right;
+}
+#storico_back{
+	display:block;
+	width:20px;
+	text-align:left;
+	float:left;
+	color:#3ec124;
+	font-weight:bold;
+	cursor:pointer;
+}
+#storico_cont{
+	overflow:auto;
+	height:94%;
+	width:100%;
+}
+.social_chat_stato, #storico_but, .start_chat, .filtrastorico{
+	cursor:pointer;
+}
+.cerchio{
+	border-radius: 50%;
+	width: 8px;
+	height: 8px;
+	display:block;
+	float:left;
+	margin:4px 3px 0 0;
+}
+.colore_online{
+	background:#3ec124;
+}
+.colore_occupato{
+	background:#d9cb29;
+}
+.colore_offline{
+	background:#aeaeae;
+}
+.social_chat_separatore{
+	border-top:2px solid #ccd5e5;
+	width:90%;
+	height:0;
+	margin:5px auto;
+}
+.close_box, #chiudi_storico{
+	color:#7b7b7b;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+#social_chat_start.relative_style, #social_chat_status.relative_style{
+	position:relative;
+	float:left;
+}
+#social_chat_panel.relative_style, #social_chat_status_panel.relative_style{
+	bottom: auto;
+    position: absolute;
+    right: auto;
+	margin-top:24px;
+}
+#social_chat_container.relative_style{
+	right:0px;
+}
+#youoffline{
+	width:100%;
+	background:#cdcdcd;
+	padding:2px;
+}
+.personal_post{
+	background:#d6e1f4;
+	padding:1px 3px;
+}
+.social_chat_notify{
+	background: #FF0000;
+    color: #FFFFFF;
+    float: right;
+    font-weight: bold;
+    padding: 2px 5px;
+}

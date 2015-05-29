@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.0" type="module" method="upgrade" client="site">
+<name>Social Chat</name>
+<creationDate>16 02 2012</creationDate>
+<version>1.0</version>
+<author>Iacopo Guarneri</author>
+<authorEmail>iacopo.guarneri@alice.it</authorEmail>
+<authorUrl>http://www.the-html-tool.com/</authorUrl>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+
+	<files>
+		<filename module="mod_social_chat">mod_social_chat.php</filename>
+		<filename>mod_social_chat.xml</filename>
+		<filename>mod_social_chat.css</filename>
+		<filename>index.html</filename>
+		<filename>gear.png</filename>
+	</files>
+	
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.mod_social_chat.ini</language>
+		<language tag="it-IT">it-IT/it-IT.mod_social_chat.ini</language>
+	</languages>
+	
+	<config>
+		<fields name="params">
+			<fieldset name="general" group="general" label="General Settings">
+				<field type="spacer" name="spacer1" label="Graphic configuration in PRO version" />
+			</fieldset>	
+			<fieldset name="advanced" group="advanced" label="Advanced Options">
+				<field name="cache" type="list" default="0" label="Caching" description="Select whether to cache the content of this module">
+					<option value="1">Use global</option>
+					<option value="0">No caching</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="Cache Time" description="The time before the module is recached" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

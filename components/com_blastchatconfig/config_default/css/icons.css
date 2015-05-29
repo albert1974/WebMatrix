@@ -1,0 +1,420 @@
+.bcUserGroupIcon
+{
+	border-style: none;
+	width: 12px;
+	height: 12px;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-image: url("../images/userGroupTypes.png");
+	background-color: transparent;
+	text-align: center;
+}
+
+.bcUserGroupIconGuest
+{
+	background-position: 0px;
+/*	background-image: url("../images/guest_12x12.png");*/
+}
+
+.bcUserGroupIconMember
+{
+	background-position: -12px;
+/*	background-image: url("../images/member_12x12.png");*/
+}
+
+.bcUserGroupIconModerator
+{
+	background-position: -24px;
+/*	background-image: url("../images/admin_12x12.png");*/
+}
+
+.bcUserGroupIconAdmin
+{
+	background-position: -36px;
+/*	background-image: url("../images/admin_12x12.png");*/
+}
+
+.bcUserGroupIconSuperAdmin
+{
+	background-position: -48px;
+/*	background-image: url("../images/superadmin_12x12.png");*/
+}
+
+.bcUserGroupIconGlobalVisitor
+{
+	background-position: -60px;
+/*	background-image: url("../images/guest_global_12x12.png");*/
+}
+
+
+
+
+
+
+.bcIcon
+{
+	border-style: none;
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	background-color: transparent;
+}
+
+
+.bcIconChatterStatus
+{
+	width: 12px;
+	height: 12px;
+	background-image: url("../images/status_12x12.png");
+}
+
+.bcIconChatterStatus-OnOn
+{
+	background-position: 0px;
+}
+
+.bcIconChatterStatus-OffOff
+{
+	background-position: -12px;
+}
+
+.bcIconChatterStatus-OnOff
+{
+	background-position: -24px;
+}
+
+.bcIconChatterStatus-OffOn
+{
+	background-position: -36px;
+}
+
+
+.bcIconSendMessage
+{
+	background-image: url("../images/send_16x16.png");
+}
+
+.bcIconEmoticons
+{
+	background-image: url("../images/smile_16x16.png");
+}
+
+.bcIconSounds
+{
+	background-image: url("../images/music_16x16.png");
+}
+
+.bcIconColors
+{
+	background-image: url("../images/colors_16x16.png");
+}
+
+.bcIconEraser
+{
+	background-image: url("../images/eraser_16x16.png");
+}
+
+.bcIconSoundOn
+{
+	background-image: url("../images/sound_on_16x16.png");
+}
+
+.bcIconSoundOff
+{
+	background-image: url("../images/sound_off_16x16.png");
+}
+
+.bcIconHistory
+{
+	background-image: url("../images/history_16x16.png");
+}
+
+.bcIconViewStyle
+{
+	background-image: url("../images/view_16x16.png");
+}
+
+.bcIconChatters
+{
+	background-image: url("../images/usergroup_16x16.png");
+}
+
+.bcIconChatter
+{
+	background-image: url("../images/user_16x16.png");
+}
+
+.bcIconFont
+{
+	background-image: url("../images/font_16x16.png");
+}
+
+.dijitToggleButtonChecked .bcIconFontBold
+{
+	background-image: url("../images/editorIconsEnabled.png");
+	background-position: -198px;
+}
+.bcIconFontBold
+{
+	background-image: url("../images/editorIconsDisabled.png");
+	background-position: -198px;
+}
+
+.dijitToggleButtonChecked .bcIconFontItalic
+{
+	background-image: url("../images/editorIconsEnabled.png");
+	background-position: -216px;
+}
+.bcIconFontItalic
+{
+	background-image: url("../images/editorIconsDisabled.png");
+	background-position: -216px;
+}
+
+.dijitToggleButtonChecked .bcIconFontUnderline
+{
+	background-image: url("../images/editorIconsEnabled.png");
+	background-position: -234px;
+}
+.bcIconFontUnderline
+{
+	background-image: url("../images/editorIconsDisabled.png");
+	background-position: -234px;
+}
+
+.bcIconConfig
+{
+	background-image: url("../images/config_16x16.png");
+}
+
+.bcIconPrivateOn
+{
+	background-image: url("../images/secure_on_16x16.png");
+}
+
+.bcIconPrivateOff
+{
+	background-image: url("../images/secure_off_16x16.png");
+}
+
+.bcIconLink
+{
+	background-image: url("../images/link_16x16.png");
+}
+
+.bcIconLinkFilm
+{
+	background-image: url("../images/linkfilm_16x16.png");
+}
+
+.bcIconLinkPage
+{
+	background-image: url("../images/linkpage_16x16.png");
+}
+
+.bcIconLinkPicture
+{
+	background-image: url("../images/linkpicture_16x16.png");
+}
+
+.bcIconLinkWorld
+{
+	background-image: url("../images/linkworld_16x16.png");
+}
+
+.bcIconMessages
+{
+	background-image: url("../images/messages_16x16.png");
+}
+
+.bcIconRooms
+{
+	background-image: url("../images/rooms_16x16.png");
+}
+
+.bcIconExit
+{
+	background-image: url("../images/exit_16x16.png");
+}
+
+.bcIconAction
+{
+	background: none;
+	border: none;
+	padding: 0px;
+	cursor: pointer;
+	background: none;
+	border: none;
+	padding: 0px;
+	background-position: -0px;
+	background-image: url("../images/action16.png");
+}
+
+.bcIconAction:hover
+{
+	background-position: -15px;
+}
+
+.bcIconWarning
+{
+	background-image: url("../images/warning_16x16.png");
+	vertical-align: text-bottom;
+}
+
+.bcIconResize {
+	float: left;
+	cursor: nw-resize;
+	background-image: url("../images/resize_dots_16x16.png");
+}
+
+.bcIconDetach
+{
+	width: 18px;
+	height: 18px;
+	background-image: url("../images/detach.gif");
+}
+
+.bcIconClose
+{
+	width: 16px;
+	height: 16px;
+	background-image: url("../images/close_16x16.png");
+}
+
+.bcIconMinimize
+{
+	width: 16px;
+	height: 16px;
+	background-image: url("../images/minimize_16x16.png");
+}
+
+.bcIconMessageDelete
+{
+	width: 12px;
+	height: 12px;
+	background-image: url("../images/messageDelete_12x12.png");
+}
+
+.bcIconMessageDeleteButton
+{
+	position: absolute;
+	right: 4px;
+	background: none;
+	border: none;
+	padding: 0px;
+	cursor: pointer;
+	background: none;
+	border: none;
+	padding: 0px;
+}
+
+.bcIconMessageDelete:Hover
+{
+	background-image: url("../images/messageDeleteHover_12x12.png");
+}
+
+
+
+.bcIconBar
+{
+	border-style: none;
+	width: 24px;
+	height: 24px;
+	vertical-align: middle;
+	margin: 0px;
+	padding: 0px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+}
+
+.bcIconChattersBar
+{
+	background-image: url("../images/usergroup_24x24.png");
+}
+
+.bcIconRoomsBar
+{
+	background-image: url("../images/rooms_24x24.png");
+}
+
+.bcIconConfigBar
+{
+	background-image: url("../images/config_24x24.png");
+}
+
+.bcIconWarningBar
+{
+	background-image: url("../images/warning_24x24.png");
+	vertical-align: text-bottom;
+}
+
+.bcNewMessageIndicatorChat {
+	position: absolute;
+	min-width: 10px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	top: 0px;
+	right: 22px; 
+	float: none;
+	font-size: 0.75em;
+	/* border: solid 1px #aaa; */
+	padding: 1px 2px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow: 1px 1px 1px #000;
+	-webkit-box-shadow: 1px 1px 1px #000;
+	-moz-box-shadow: 1px 1px 1px #000;
+	background-color: #F72D30;
+}
+
+.bcNewMessageIndicatorShout {
+	position: absolute;
+	min-width: 10px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	top: 1px;
+	right: 3px; 
+	float: none;
+	font-size: 0.75em;
+	/* border: solid 1px #aaa; */
+	padding: 1px 2px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow: 1px 1px 1px #000;
+	-webkit-box-shadow: 1px 1px 1px #000;
+	-moz-box-shadow: 1px 1px 1px #000;
+	background-color: #F72D30;
+}
+
+.bcNewMessageIndicatorBar {
+	position: absolute;
+	min-width: 10px;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	top: 0px;
+	right: 22px;
+	float: none;
+	font-size: 0.75em;
+	/* border: solid 1px #aaa; */
+	padding: 1px 2px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	box-shadow: 1px 1px 1px #000;
+	-webkit-box-shadow: 1px 1px 1px #000;
+	-moz-box-shadow: 1px 1px 1px #000;
+	background-color: #F72D30;
+}

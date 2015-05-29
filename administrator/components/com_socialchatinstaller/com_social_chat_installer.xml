@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension method="upgrade" type="component" version="2.5.0">
+<name>Social Chat installer</name>
+<creationDate>16 02 2012</creationDate>
+<version>1.0</version>
+<author>Iacopo Guarneri</author>
+<authorEmail>iacopo.guarneri@alice.it</authorEmail>
+<authorUrl>http://www.the-html-tool.com/</authorUrl>
+<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	
+	<scriptfile>install.script.php</scriptfile>
+	<administration>
+		<menu>Social Chat</menu>
+		<files folder="admin">
+			<filename>extensions/index.html</filename>
+			<file type="component" id="com_socialchatcore" >extensions/com_socialchatcore.zip</file>
+			<file type="module" id="mod_social_chat">extensions/mod_social_chat.zip</file>
+		</files>
+	</administration>
+</extension>

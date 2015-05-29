@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+	<fieldset
+		name="authentication"
+		label="COM_BLASTCHATCONFIG_FIELD_AUTHENTICATION_LABEL"
+		description="COM_BLASTCHATCONFIG_FIELD_AUTHENTICATION_DESC"
+	>
+		<field
+			name="sid"
+			type="text"
+			size="50"
+			label="COM_BLASTCHATCONFIG_FIELD_SID_LABEL"
+			description="COM_BLASTCHATCONFIG_FIELD_SID_DESC"
+			default=""
+		>
+		</field>
+		<field
+			name="pk"
+			type="text"
+			size="50"
+			label="COM_BLASTCHATCONFIG_FIELD_PK_LABEL"
+			description="COM_BLASTCHATCONFIG_FIELD_PK_DESC"
+			default=""
+		>
+		</field>
+	</fieldset>
+	<fieldset
+		name="configuration"
+		label="COM_BLASTCHATCONFIG_FIELD_CONFIGURATION_LABEL"
+		description="COM_BLASTCHATCONFIG_FIELD_CONFIGURATION_DESC"
+	>
+		<field
+			name="configver"
+			type="text"
+			label="COM_BLASTCHATCONFIG_FIELD_CONFIGVER_LABEL"
+			description="COM_BLASTCHATCONFIG_FIELD_CONFIGVER_DESC"
+			default="0"
+		>
+		</field>
+		<field
+			name="theme"
+			type="list"
+			label="COM_BLASTCHATCONFIG_FIELD_THEME_LABEL"
+			description="COM_BLASTCHATCONFIG_FIELD_THEME_DESC"
+			default="tundra"
+		>
+			<option value="claro">claro</option>
+			<option value="nihilo">nihilo</option>
+			<option value="soria">soria</option>
+			<option value="tundra">tundra</option>
+		</field>
+		<field
+			name="themecname"
+			type="text"
+			label="COM_BLASTCHATCONFIG_FIELD_THEMECNAME_LABEL"
+			description="COM_BLASTCHATCONFIG_FIELD_THEMECNAME_DESC"
+			default=""
+		>
+		</field>
+		<field
+			name="themecloc"
+			type="text"
+			label="COM_BLASTCHATCONFIG_FIELD_THEMECLOC_LABEL"
+			description="COM_BLASTCHATCONFIG_FIELD_THEMECLOC_DESC"
+			default=""
+		>
+		</field>
+		<field
+			name="themeover"
+			type="text"
+			label="COM_BLASTCHATCONFIG_FIELD_THEMEOVER_LABEL"
+			description="COM_BLASTCHATCONFIG_FIELD_THEMEOVER_DESC"
+			default=""
+		>
+		</field>
+		<field
+			name="guestprefix"
+			type="text"
+			label="COM_BLASTCHATCONFIG_FIELD_GUESTPREFIX_LABEL"
+			description="COM_BLASTCHATCONFIG_FIELD_GUESTPREFIX_DESC"
+			default="Guest_"
+		>
+		</field>
+		<field
+			name="avtint"
+			type="list"
+			label="COM_BLASTCHATCONFIG_FIELD_AVTINT_LABEL"
+			description="COM_BLASTCHATCONFIG_FIELD_AVTINT_DESC"
+			default="0"
+		>
+			<option value="0">None</option>
+			<option value="1">JomSocial</option>
+			<option value="2">CommunityBuilder</option>
+			<option value="3">Kunena</option>
+			<option value="4">Other</option>
+		</field>
+		<field
+			name="bclang"
+			type="text"
+			label="COM_BLASTCHATCONFIG_FIELD_LANG_LABEL"
+			description="COM_BLASTCHATCONFIG_FIELD_LANG_DESC"
+			default="en"
+		>
+		</field>
+	</fieldset>
+</config>

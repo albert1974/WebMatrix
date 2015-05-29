@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="3.0">
+<name>BlastChat Package</name>
+<author>BlastChat</author>
+<creationDate>March 2013</creationDate>
+<packagename>blastchat</packagename>
+<version>4.0</version>
+<url>http://www.blastchat.com/</url>
+<packager>BlastChat</packager>
+<packagerurl>http://www.blastchat.com/</packagerurl>
+<description>BlastChat package to combine Config, Bar, Chat and Shout extensions</description>
+<update>http://www.blastchat.com/index.php?option=com_ars&amp;view=update&amp;task=all&amp;format=xml&amp;dummy=extension.xml</update>
+<files folder="packages">
+<file type="component" id="blastchat" >com_blastchatconfig_4.0_Joomla_3.0.zip</file>
+<file type="component" id="blastchat" >com_blastchatchat_4.0_Joomla_3.0.zip</file>
+<file type="module" id="blastchat" client="site">mod_blastchatbar_4.0_Joomla.zip</file>
+<file type="module" id="blastchat" client="site">mod_blastchatshout_4.0_Joomla.zip</file>
+</files>
+</extension>
